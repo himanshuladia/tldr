@@ -5,8 +5,7 @@
   "description": "Summarizes selected text on any webpage.",
   "permissions": [
     "activeTab",
-    "contextMenus",
-    "storage"
+    "contextMenus"
   ],
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
