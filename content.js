@@ -1,7 +1,5 @@
-import { MESSAGE_ACTION_DISPLAY_SUMMARY } from './constants.js';
-
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.action === MESSAGE_ACTION_DISPLAY_SUMMARY) {
+  if (request.action === 'displaySummary') {
     console.log("Content script received summary:", request.summary);
 
     // Remove any existing summary box first
