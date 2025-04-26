@@ -30,7 +30,7 @@ initializeSummarizer();
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: CONTEXT_MENU_ID,
-    title: "TL;DR (Summarize Locally)", // Updated title
+    title: "TL;DR",
     contexts: ["selection"]
   });
 });
