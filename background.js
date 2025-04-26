@@ -57,7 +57,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => { // Make listene
     try {
       console.log('[Background] Starting summarization for text:', info.selectionText.substring(0, 100) + '...');
       const result = await summarizer(info.selectionText, {
-          max_length: 100, // Adjust max length as needed
+          max_length: 200, // Adjust max length as needed
           min_length: 30,  // Adjust min length as needed
       });
       
