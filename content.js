@@ -36,8 +36,8 @@ function displaySummaryBox(content) {
   // Add Close Button (always add/re-add it)
   const closeButton = document.createElement('button');
   closeButton.textContent = 'Close';
-  closeButton.style.padding = '5px 10px';
-  closeButton.style.marginTop = '10px'; // Add some space above button
+  closeButton.style.padding = '8px 10px';
+  closeButton.style.marginTop = '10px';
   closeButton.style.border = '1px solid #ccc';
   closeButton.style.borderRadius = '3px';
   closeButton.style.cursor = 'pointer';
