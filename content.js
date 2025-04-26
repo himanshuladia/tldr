@@ -24,6 +24,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     summaryBox.style.fontFamily = 'sans-serif';
     summaryBox.style.fontSize = '14px';
     summaryBox.style.lineHeight = '1.4';
+    summaryBox.style.color = '#333';
 
     // Add Summary Title
     const title = document.createElement('h4');
